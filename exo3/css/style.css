@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+form{
+    padding: .8em;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 300px;
+    border-radius: .3em;
+}
+
+label{
+    font-weight: bolder;
+}
+
+input{
+    outline: none;
+    height: 20px;
+    padding: .3em;
+    border-radius: .3em;
+}
+
+button{
+    margin: .3em;
+    height: 35px;
+    background-color: rgb(147, 147, 152);
+    color: white;
+    border: none;
+    border-radius: .3em;
+}
